@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="relative order-1 md:order-2">
           <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] mx-auto rounded-full relative overflow-hidden border-4 border-[#00E5E8] shadow-[0_0_50px_#00E5E8]">
             <img
-              src="/lovable-uploads/8df617dc-7d16-4901-a5eb-30b5ff0fdbfd.png"
+              src="./public/images/wahab.png"
               alt="Profile"
               className="w-full h-full object-cover"
             />
