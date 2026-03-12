@@ -15,7 +15,8 @@ const Hero = () => {
         <div className="relative order-1 md:order-2">
           <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] mx-auto rounded-full relative overflow-hidden border-4 border-[#00E5E8] shadow-[0_0_50px_#00E5E8]">
             <img
-              src="./public/images/wahab.png"
+              src="/My_Portfolio/images/wahab.png
+              "
               alt="Profile"
               className="w-full h-full object-cover"
             />
@@ -29,12 +30,11 @@ const Hero = () => {
             Abdul Wahab
           </h1>
           <p className="text-xl">
-            And I'm a <span className="text-[#00E5E8]">Full Stack Developer</span>
+            And I'm a <span className="text-[#00E5E8]">Full Stack Software Developer</span>
           </p>
           <p className="text-gray-400 max-w-lg">
-            I'm a Full Stack Developer with a passion for building modern, scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). I love crafting clean code, responsive interfaces, and seamless user experiences. With strong skills in Git, Bootstrap, and REST APIs, I turn ideas into powerful digital solutions.
+            I build modern, scalable web applications using Next.js, React, Node.js, TypeScript, and the MERN stack. I enjoy creating high-performance dashboards, real-time applications, and clean user experiences while focusing on maintainable code and modern development practices. 
           </p>
-          
           {/* Social Links */}
           <div className="flex gap-4">
             {socialLinks.map((social, index) => {
@@ -52,8 +52,8 @@ const Hero = () => {
               );
             })}
           </div>
-          
-          <Button 
+
+          <Button
             className="bg-[#00E5E8] hover:bg-[#00E5E8]/90 text-white rounded-full px-8"
           >
             More About Me

@@ -13,7 +13,7 @@ const Skills = () => {
 
   const professionalSkills = [
     { name: "Creativity", progress: 90 },
-    { name: "Communication", progress: 65 },
+    { name: "Communication", progress: 70 },
     { name: "Problem Solving", progress: 75 },
     { name: "Teamwork", progress: 85 },
   ];
